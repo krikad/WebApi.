@@ -12,6 +12,7 @@ namespace SchoolApplication.Data
     {
         public DbSet<School> Schools { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Sex> Sexes { get; set; }
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
 

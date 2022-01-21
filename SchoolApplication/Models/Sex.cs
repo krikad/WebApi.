@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace SchoolApplication.Models
 {
-    public class School : NamedEntity
+    public class Sex : NamedEntity
     {
-        public DateTime Created { get; set; } = DateTime.UtcNow;
         public List<Student> Students { get; set; }
     }
 }

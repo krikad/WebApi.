@@ -8,8 +8,9 @@ namespace SchoolApplication.Models
 {
     public class Student : NamedEntity
     {
-        public string Sex { get; set; }
         public int SchoolId { get; set; }
         public School School { get; set; }
+        public Sex Sex { get; set; }
+        public int SexId { get; set; }
     }
 }
